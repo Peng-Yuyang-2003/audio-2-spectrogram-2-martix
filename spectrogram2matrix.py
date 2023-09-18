@@ -13,8 +13,8 @@ from sklearn import preprocessing
 from torch import float32
 from torch import int64
 
-COOKED_DIR = 'E:/photos/'#where the audios are
-COOKED_DIR2 = 'E:/photostensor/'#where you want to save spectrograms
+COOKED_DIR = 'E:/photos/'#where the spectrograms are
+COOKED_DIR2 = 'E:/photostensor/'#where you want to save matrix 
 
 # 生成长度为 1500 的 tensor，每个元素都初始化为 0
 Y = torch.zeros(1500,dtype=int64)
